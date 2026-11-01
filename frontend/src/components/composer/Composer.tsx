@@ -321,7 +321,7 @@ export function Composer({ conversationId, agent, onAgentChange, hasConversation
             {error}
           </p>
         ) : (
-          <p className="text-xs text-fg-subtle">OmniAI can make mistakes. Check important information.</p>
+          <p className="text-xs text-fg-subtle">OmniAI can make mistakes. Please verify important information. · Deployed via CI/CD</p>
         )}
       </div>
     </div>
