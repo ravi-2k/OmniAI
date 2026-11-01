@@ -1,0 +1,13 @@
+# Builds use `backend/` as the context, so patterns need `**/` to match inside
+# gateway/ and services/*. Never ship secrets or local state in an image.
+**/node_modules
+**/.env
+**/.env.*
+!**/.env.example
+**/firebaseServiceAcc.json
+**/*serviceAccount*.json
+**/.git
+**/.DS_Store
+**/temp
+**/.dockerignore
+docker-compose.yml
